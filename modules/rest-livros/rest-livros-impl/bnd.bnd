@@ -1,0 +1,3 @@
+Bundle-Name: rest-livros-impl
+Bundle-SymbolicName: aecio.dev.rest.livros.impl
+Bundle-Version: 1.0.0

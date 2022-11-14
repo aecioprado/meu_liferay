@@ -1,0 +1,5 @@
+Bundle-Name: rest-livros-test
+Bundle-SymbolicName: aecio.dev.rest.livros.test
+Bundle-Version: 1.0.0
+-includeresource: aecio.dev.rest.livros.client.jar=../rest-livros-client/build/libs/aecio.dev.rest.livros.client-1.0.0.jar;lib:=true
+-provider-policy: ${replacestring;${range;[==,==]};.*,(.*)];$1}

@@ -1,0 +1,9 @@
+apiDir: "../rest-livros-api/src/main/java"
+apiPackagePath: "aecio.dev.rest.livros"
+application:
+    baseURI: "/rest-livros"
+    className: "RestLivrosApplication"
+    name: "RestLivros"
+author: "me"
+clientDir: "../rest-livros-client/src/main/java"
+testDir: "../rest-livros-test/src/testIntegration/java"

@@ -1,0 +1,6 @@
+Bundle-Name: rest-livros-api
+Bundle-SymbolicName: aecio.dev.rest.livros.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	aecio.dev.rest.livros.dto.v1_0,\
+	aecio.dev.rest.livros.resource.v1_0
