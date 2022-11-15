@@ -5,7 +5,10 @@ configurations.all {
 }
 
 dependencies {
-	testIntegrationCompile group: "com.liferay.portal", name: "release.portal.api"
-	testIntegrationCompile project(":modules:rest-livros:rest-livros-api")
-	testIntegrationCompile project(":modules:rest-livros:rest-livros-client")
+	testIntegrationImplementation group: "com.liferay.portal", name: "release.portal.api"
+	testIntegrationImplementation project(":modules:rest-livros:rest-livros-api")
+	testIntegrationImplementation project(":modules:rest-livros:rest-livros-client")
+	testIntegrationCompile group: "junit", name: "junit"
+	testIntegrationCompile group: "com.liferay", name: "com.liferay.arquillian.extension.junit.bridge", version: "1.0.19"
+
 }
