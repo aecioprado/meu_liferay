@@ -5,11 +5,18 @@
 
 <%
 	ExternalUserProfileConfiguration configuration = (ExternalUserProfileConfiguration)request.getAttribute(ExternalUserProfileConfiguration.class.getName());
-	System.out.println("log: "+ configuration.userProfileId().toString());
+
+	String userId = (String) request.getAttribute("userId");
+	String firstName = (String) request.getAttribute("firstName");
+	String imageUrl = (String) request.getAttribute("imageUrl");
+
 %>
 
 <p>
 	<b><liferay-ui:message key="externaluserprofile.caption"/></b>
-
-	user-id: <%= configuration.userProfileId() %>
+</p>
+<p>
+	<img src="<%= imageUrl%>"/><br/>
+	<b>User ID:</b> <%= userId %><br/>
+	<b>FirstName:</b> <%= firstName %>
 </p>
