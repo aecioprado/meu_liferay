@@ -9,7 +9,7 @@ import com.training.constants.ExternalUserProfilePortletKeys;
         category = "external-user-profile", scope = ExtendedObjectClassDefinition.Scope.COMPANY
 )
 @Meta.OCD(
-        id = ExternalUserProfilePortletKeys.P_ID,
+        id = "com.training.configuration.ExternalUserProfileConfiguration",
         localization = "content/Language",
         name = "external-user-profile-configuration-name"
 )
@@ -21,7 +21,7 @@ public interface ExternalUserProfileConfiguration {
             optionLabels = {"Terry", "Sheldon", "Terrill", "Miles", "Mavis"},
             optionValues = {"1", "2", "3", "4", "5"},
             required = false)
-    public String defaultUserProfile();
+    public String userProfileId();
 
 }
 
