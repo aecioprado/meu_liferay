@@ -1,4 +1,0 @@
-Bundle-Name: external-user-profile-configuration
-Bundle-SymbolicName: com.training
-Bundle-Version: 1.0.0
-Export-Package: com.training.constants
